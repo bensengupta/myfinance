@@ -1,0 +1,28 @@
+{
+  "root": "apps/myfinance-e2e",
+  "sourceRoot": "apps/myfinance-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/myfinance-e2e/cypress.json",
+        "devServerTarget": "myfinance:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "myfinance:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/myfinance-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["myfinance"]
+}
