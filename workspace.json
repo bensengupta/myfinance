@@ -1,7 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "myfinance": "apps/myfinance",
-    "myfinance-e2e": "apps/myfinance-e2e"
+    "web": "apps/web",
+    "web-e2e": "apps/web-e2e"
   }
 }
