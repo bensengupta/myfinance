@@ -1,0 +1,31 @@
+{
+  "name": "mobile",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-native": "*",
+    "@testing-library/react-native": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-redux": "*",
+    "@react-navigation/bottom-tabs": "*",
+    "redux-persist": "*",
+    "react-native-vector-icons": "*",
+    "@reduxjs/toolkit": "*",
+    "@react-native-async-storage/async-storage": "*",
+    "@react-navigation/native": "*",
+    "react-native-screens": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-paper": "*",
+    "lodash": "*",
+    "react-native-paper-dropdown": "*",
+    "react-native-chart-kit": "*",
+    "@react-navigation/material-bottom-tabs": "*",
+    "@react-navigation/native-stack": "*",
+    "formik": "*",
+    "yup": "*",
+    "react-native-date-picker": "*",
+    "date-fns": "*"
+  }
+}
