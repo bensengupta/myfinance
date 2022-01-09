@@ -17,5 +17,6 @@ The finance app that you control.
 ## Android Development
 
 - Clone this repository
+- Install npm dependencies `npm install`
 - Start the metro bundler `nx start mobile`
 - (Android) Run Gradle `nx run-android mobile`
